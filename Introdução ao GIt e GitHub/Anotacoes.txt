@@ -1,0 +1,5 @@
+Git - É um sistema de controle de versão de arquivos.
+
+Sistema distribuído - Possui múltiplas cópias de si mesmo em diferentes locais.
+
+
