@@ -1,0 +1,28 @@
+- Estrutura Árvore
+É uma estrutura de dados que organiza seus elementos de forma hierárquica, 
+onde existe um elemento que fica no topo da árvore, 
+chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas.
+
+- Tabela Hash (Especial)
+Permite a associação de "valores" a "chaves".
+Valores é a posição ou índice onde o elemento se encontra 
+Chave parte da informação que compõe o elemento a ser manipulado. 
+Função que causa o espalhamento de dados na tabela hash – hashing.  
+
+- Grafos
+Estruturas que permitem programar a relação entre objetos, que são vértices ou "nós" do grafo. Os relacionamentos são arestas 
+
+Lista ligada é unidirecional e a duplamente ligada é bidirecional. 
+Operações básicas em uma estrutura de dados – inserir, excluir, localizar dados, percorrer itens e classificar dados.  
+
+Acessando um campo de um registro – Utilizando o símbolo de ponto (.): livro.nome.  
+Enquanto arrays permite armazenar vários dados de um único tipo de dados, o recurso de registro permite armazenar mais de um tipo de dados. 
+
+Criação de algoritmos de fila e pilha – vetor.  
+
+
+- Estruturas de dados 
+Vetor e matriz, registro, lista, pilha, fila, árvore, tabela hash e grafos.  
+
+- Acesso aos itens de uma pilha 
+O acesso aos itens de uma pilha é restrito – somente um item pode ser lido ou removido por vez.  
