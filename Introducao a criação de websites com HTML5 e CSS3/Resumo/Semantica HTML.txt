@@ -1,8 +1,25 @@
 Semântica HTML
 
-<section> - Sessões.
-<header> - cabeçalho de um layout.
-<article> - Artigo.
-<aside> - Conteúdo tangencialmente relacionado ao conteúdo, por exemplo as barras laterais. 
-<footer> - Rodapé.
-<h1><h6> - Título do texto.
+Escrita HTML dá significado ao código HTML.
+Um elemento HTML é formado por uma tag e seus atributos, 
+adicionalmente, alguns elementos podem possuir um conteúdo,
+ o qual é delimitado pela abertura e fechamento de sua respectiva tag.
+head -> Coloca metadados, css e links para arquivos externos. 
+alt na imagem mostra a descrição da imagem caso ela não carregue.
+
+<section> -> Sessões.
+<header> -> cabeçalho de um layout, só pode ser usado uma vez por página.
+<article> -> Artigo.
+<aside> -> Conteúdo tangencialmente relacionado ao conteúdo, por exemplo as barras laterais. 
+<footer> -> Rodapé.
+<h1><h6> -> Título do texto.
+
+<p> -> Parágrafo pode colocar qualquer tipo de conteúdo.
+<a> -> Tag ângora para pôr links.
+	ex: <a target="_blank">  -> Abre em uma nova página.
+
+<img src="camimho" alt="explica o que é a imagem">
+
+<ul> Lista não ordenada
+<ol> Lista ordenada
+<li> item da lista 

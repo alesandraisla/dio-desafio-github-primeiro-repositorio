@@ -1,0 +1,13 @@
+CSS
+É formado por um seletor ou um grupo de seletores e por pelo menos
+uma declaração, que é formada por uma propriedade e um valor. 
+
+class .
+id #
+
+box model é uma caixa retângular, 
+ele tem a margin, border, padding e content.
+
+Auto - Valor que coloca na propriedade para ajudar a alinhar elementos.
+
+Borda se altera largura, cor e estilo. 
