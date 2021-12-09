@@ -1,0 +1,8 @@
+Semântica HTML
+
+<section> - Sessões.
+<header> - cabeçalho de um layout.
+<article> - Artigo.
+<aside> - Conteúdo tangencialmente relacionado ao conteúdo, por exemplo as barras laterais. 
+<footer> - Rodapé.
+<h1><h6> - Título do texto.
