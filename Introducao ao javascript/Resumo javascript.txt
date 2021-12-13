@@ -1,0 +1,26 @@
+## DOM (documento object model) ##
+É uma estrutura dos elementos da janela da web
+
+## Pegando um elemento pela tag com o DOM ##
+Ele vai acessar todas as tag que são h1 e trazer para a variável elemento.
+let elemento = document.getElementsByTagName('h1')
+
+##Procurando um elemento pelo ID com o DOM##
+document.getElementById("menu")
+
+## Mudando o css com o DOM ##
+elemento.style.color = "blue";
+
+##Elemento que está dentro do HTML##
+Por exemplo querer modificar um valor que está no html, deve acessar 
+da seguinte forma:
+let valorDoHtml = 0;
+valorDoHTMl.innetHTML = novoValorDoHtml;
+
+addEventListener
+
+Criar condicionais que desabilitam o botão de incrementar ou decrementar
+quando count chegar a um determinado valor. ex: 0 <= count => 10
+
+Mudar a cor do texto em current_number para veremelho quando o numero
+for negativo
