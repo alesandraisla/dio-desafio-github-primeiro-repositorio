@@ -1,0 +1,112 @@
+## Tipagem ##
+Regra de uso de dados, no Js é fraca, a declaração dos dados
+acontece de modo dinâmico. 
+
+## Variáveis ##
+é uma caixa que guarda valores, no caso do let pode ser alterado, já
+o const não se altera (somente leitura).
+Variáveis podem guardar valores dos tipos:
+boolean, null, undefined, number, string, array, object, function.
+
+## Regras do uso das variáveis ##
+Iniciar com letras, underscore _ ou cifrão $, camelCase.
+Nunca iniciar com número nem espaços e nem palavras reservadas.
+
+##  Escopo ##
+Define a limitação e visibilidade de um bloco de código.
+- Escopo global - Quando a variável é declarada fora de qualquer bloco, 
+sua visibilidade fica disponível em todo o código.
+- Escopo local - Quando a variável é declarada dentro de um bloco, 
+sua visibilidade pode ficar disponível ou não.
+
+## Atribuições ##
+= Receber
+== Igual  (valor)
+=== Idêntico (Valor e tipo)
+
+## Operadores ariméticos ##
++
+-
+*
+/
+%
+%%
+
+## Operadores relacionais ##
+>
+<
+>=
+<=
+
+## Operadores lógicos ##
+&& e todos sejam true
+|| ou qualquer valor seja true
+! não inverte
+
+
+## Vetores ou arrays ##
+São um tipo de lista ou matriz de variáveis onde cada variável possui
+um índice e os valores podem ser de vários tipos.  []
+
+## Manipulando array ##
+Métodos
+forEach() - Itera um array
+push() - Add item no final do array
+pop() - Remove item no final do array
+shift() - Remove item no início do array
+unshift() - Add item no início do array 
+indexOf() - Retorna o índice de um valor
+splice() - Remove ou substitui um item pelo índice
+slice() - Retorna uma parte de um array existente. 
+
+## Objetos ##
+Dados que possuem propriedades e valores que definem
+suas características. {}
+As propriedades de objetos podem ser atribuídas à variáveis,
+facilitando a manipulação do objeto. (Destruturação)
+ex: let xicara = {
+	cor: 'azul',
+	tamanho: 'p',
+	funcao: tomarCafe()
+	}
+    let cor = xicara.cor;
+
+## Estruturas condicionais ##
+Condição de decisão ou repetição
+ -> Estruturas de decisão
+	if else 
+	if ternário 
+	ex: [condicao]?[instrucao1]:[instrucao2];
+	switch/ case
+	ex:swritch(expressao){
+	case1:
+	break
+	}
+
+## Estruturas de repetição ##
+Repetem uma instrução até atingir determinada condição.
+for -> Repetição de instrução até que a condição seja falsa
+for/in -> Repetição a partir de uma propriedade
+for/of -> Repetição a partir de um valor
+while -> Executa uma instrução enquanto a condição for verdadeira
+do/while -> Executa uma instrução até que a condição seja falsa.
+
+## Função ##
+Blocos de comandos e instruções para a execução de uma determinada
+tarefa.
+- Função declarativa
+Tem que ter um nome obrigatoriamente
+ex: function nome() {}
+- Função expressão
+ex: let nome = function(){}
+    let nom1 = function funcao(){}
+- Arrow function
+anônima não tem nome
+let exemplo = () => {}
+
+number() - Converte valores em números
+prompt() - Registra entradas do usuário
+alert() - Mostra mensagem ao usuário
+template String - Usa string junto com expressões
+
+

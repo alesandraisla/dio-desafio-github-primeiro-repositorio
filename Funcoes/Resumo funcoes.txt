@@ -1,0 +1,20 @@
+## Função ##
+Variáveis criadas dentro de uma função apenas podem ser utilizadas
+dentro dela.
+
+## Função anônima ##
+Uma variável pode armazenar uma função.
+
+## Função autoinvocável ##
+é uma função anônima entre parênteses, seguida por outro par
+de parênteses, que represena sua chamada.
+ex: (function(a, b) {
+	return a + b;
+    })(1,2);
+
+## Callbacks ##
+é uma função passada como argumento para outra função.
+Utilizando callbacks, você tem maior controle da ordem de chamadas.
+
+## Arguments ##
+Um array com todos os parâmetros passados quando a função foi invocada
