@@ -1,5 +1,7 @@
-## Map ##
+Em coleções chaveadas é possível utilizar o loop for..of
 
+## Map ## {{Coleção chaveada}}
+Permite chaves de qualquer tipo
 Coleção de arrays no formato [chave, valor].
 pode ser iterado por um loop for...of.
 Podem ter chaves de qualquer tipo
@@ -8,20 +10,20 @@ São faceis de iterar.
 Utilizado quando o valor das chaves é desconhecido.
 Os valores tem o mesmo tipo. 
 
-## Object ##
-
+## Object ## {{Não são}}
+Não permite chave de qualquer tipo 
 Tem chaves no formato de string
 Precisa iterar nas propriedades para saber o tamanho do objeto
 Utiliza quando conhece o valor da chave
 Não necessariamente precisa ter valores do mesmo tipo.
 
-## Set ##
+## Set ##  {{Coleção chaveada}}
 
 São estruturas que armazenam apenas valores únicos que não se repetem.
-Em vez da propriedade length, consulta-se o número de registros pela propriedade size.
+Em vez da propriedade length, para retornar o tamanho consulta-se o número de registros pela propriedade size.
 Não possui os métodos map, filter, reduce, etc de um array. 
 
-## Array ##
+## Array ## {{Não são}}
 É mais flexível, pois tem mais métodos. 
 
 
