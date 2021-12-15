@@ -1,9 +1,9 @@
 ## Função ##
 Variáveis criadas dentro de uma função apenas podem ser utilizadas
-dentro dela.
+dentro dela.Podem retornar ou não algum valor.
 
 ## Função anônima ##
-Uma variável pode armazenar uma função.
+Uma variável pode armazenar uma função. Sem um nome específico e que podem ter seu valor atribúido a uma variável.
 
 ## Função autoinvocável ##
 é uma função anônima entre parênteses, seguida por outro par
@@ -17,4 +17,81 @@ ex: (function(a, b) {
 Utilizando callbacks, você tem maior controle da ordem de chamadas.
 
 ## Arguments ##
-Um array com todos os parâmetros passados quando a função foi invocada
+Um array com todos os parâmetros passados quando a função foi invocada.
+
+## Arrays ##
+Spread: Uma forma de lidar separadamente com elementos. 
+O que era parte de um array se torna um elemento independente.
+Usa quando chama a função
+Ele é o (...) antes dos elementos.
+function sum(x, y, z) {
+return x + y + z;
+}
+ex: const numbers = [1,2,3]
+console.log(sum[...numbers]);
+
+Rest: Combina os argumentos em um array.
+O que era um elemento independente se torna parte de um array.
+Usa quando declara uma função
+ex: function confereTamanho(...args) {
+	console.log(args.lenght)
+}
+confereTamanho()  ->> vai dar 0
+confereTamanho(1,2) ->> vai dar 2
+
+Object Destructuring
+Entre {}, pode filtrar apenas os dados que interessa em um objeto.
+ex: const user = {
+	id: 42,
+	nome: 'lara'
+}
+
+function userId({id}) {
+	return id 
+}
+
+userId(user) ->> vai dar 42
+
+## For ... In ##
+Loop entre propriedades enumeráveis de um objeto.
+
+## For ... Of ##
+Loop entre estruturas iteráveis (arrays, string)
+
+## While ##
+Executa instruções até que a condição se torne falsa.
+
+## Do While ##
+Executa instruções até que a condição se torne falsa,
+porém a primeira execução sempre ocorre.
+
+## This ##
+É uma referência de contexto. No exemplo, this, refere-se ao objeto pessoa.
+Quando está dentro do objeto (método) ela faz referência ao dono do método.
+Quando está sozinha se faz referência ao objeto global no caso window.
+Quando está dentro de uma função faz referência ao objeto global.
+Quando está no evento faz referência ao elemento que recebeu o evento.
+
+-- Métodos que utilizam para manipular o valor this --
+## Método call ##
+É possível passar parâmetros para essa função separando-os por vírgulas.
+
+## Método Apply ##
+É possível passar parâmetros para essa função dentro de um array [].
+
+## Método Bind ##
+Clona a estrutura da função onde é chamada e aplica o valor do objeto
+passado como parâmetro.
+
+## Arrow functions ##
+const helloWorld = () => { return `Hello World`};
+Caso tenha só uma linha, pode dispensar as chaves e o return.
+Caso exista apenas um parâmetro, pode dispensar os parênteses.
+Sempre declarar antes de chamar.
+
+
+
+
+
+
+
