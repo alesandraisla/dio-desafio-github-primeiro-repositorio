@@ -1,0 +1,40 @@
+## Operadores ##
+
+Aritmética
++
+-
+*
+/
+%
+**
+++
+--
+
+
+Atribuição
+=
++=
+-=
+*=
+/=
+%=
+
+Comparação
+== Igual a
+===  Valor e tipo Identido 
+!= Diferente
+!== Valor e tipo diferente
+>
+<
+>=
+<=
+
+Lógica
+&& "e"
+|| "ou"
+! "Não"
+
+Condicional ternário
+(condição) ? expressao1 : expressao2
+
+
