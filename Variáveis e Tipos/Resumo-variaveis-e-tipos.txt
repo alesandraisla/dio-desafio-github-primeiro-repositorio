@@ -1,0 +1,88 @@
+Tipo                                    Exemplo
+Original Variable as string         exemplo agora
+camelCase                           exemploAgora 
+snake Case                          exemplo_agora
+kebab case                          exemplo-agora 
+pascal case                         ExemploAgora
+SNAKE UPPER CASE                    EXEMPLO_AGORA 
+
+## var / let ##
+Declarar valores dinâmicos
+let tem escopo de bloco, ou seja, se declarar um valor no let e dentro de um bloco redeclarar outro valor diferente, o let do escopo global não será alterado.
+
+Hoisting -> Atribuir valor a uma variável antes de ser declarada. 
+
+## Const ##
+Por convenção o ideal é declarar utilizando o snake upper case. Não redeclara, nem reatribui nem faz hosting.
+
+## Estrutura de dados ###
+Linguagem de tipagem dinâmica e fraca.
+Não precisa especificar o tipo do valor.
+Verificar o tipo -> typeof enomedavariavel.
+Dados primitivos -> number, string, boolean, null, undefined (Não tem método dentro delee tem letra minúscula).
+Dados não primitivos -> object, array.
+
+Pular linha \n
+
+## Métodos para string ##
+variavel.split("") -> Mostra quantos caracteres tem.
+variavel.split(" ") -> Mostra quantas palavras tem.
+variavel.includes("exemplo") -> Procura se tem a palavra "exemplo".
+variavel.startsWith("E") -> Retorna true ou false, verifica se começa com "E".
+variavel.endsWith("E") -> Retorna true ou false, verifica se termina com "E".
+let novaVarivel = variavel.replace(",", "!") -> Retorna outra frase precisa atribuir a um novo let. Ele retira o que deseja e altera pra outra coisa que deseja.
+
+## Métodos para number ##
+
+Math.Pi  
+Math.floor(variavel) -> arredonda pra baixo.
+Math.ceir(variavel) -> arredonda pra cima.
+variavel.toString -> Converte pra string.
+
+## Array ##
+
+let novoArray = []
+novoArray.push(2) -> Adiciona o elemento no final da fila.
+novoArray.pop(2) -> Exclui o último elemento da fila. 
+novoArray.shift() -> Retira o primeiro.
+novoArray.unshift() -> Adiciona primeiro.
+novoArray.every(item => item === 5) -> Saber se todos os itens são 5 retorna um boolean.
+novoArray.some(item => item === 5) => Saber se algum item é 5 retorna um boolean.
+novoArray.reverse() => reverte.
+
+## Object ##
+
+Cada objeto possui chave e valor.
+object.values(obj)  => Verifica os valores do objeto
+object.keys(obj)  => Verifica as chaves do objeto
+Pode retornar de duas maneiras:
+obj.name
+obj["name"]
+
+Para criar uma chave e valor que seja de um let, deve fazer da seguinte forma:
+let exemplo = "estado";
+obj[exemplo] = "Pernambuco";
+
+
+Empty -> DEclarou a variável se é um number é 0, se é string declarou apenas com aspa, se é array só inicializou com os colchetes, obj inicializou com as chaves. nao tem valor dentro
+Null -> propositamente o valor não exista. nao foi inicializado.
+Undefined -> Nem declarou, o valor é indefinido. 
+
+A propriedade length está presente em strings e objetos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
