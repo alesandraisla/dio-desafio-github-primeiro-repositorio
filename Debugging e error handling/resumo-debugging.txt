@@ -1,0 +1,18 @@
+## Trhow ##
+Trata como sendo um erro.
+
+## Return ##
+Retornar o que declarar após o return.
+
+## Try... catch ##
+Declaração dentro do bloco try vai verificar o código e se tiver um algum erro o catch irá tratar esse erro.
+Manipula todas as propriedades do erro de uma forma mais personalizada. 
+
+##Finally##
+Instrução vai ser chamada independente se tiver erro ou não. é colocado dentro do try e catch.
+
+## Objeto error ##
+Aceita três parâmetros message, fileName, lineNumber - São opcionais.
+O erro pode ter um nome.
+
+

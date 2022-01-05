@@ -1,0 +1,18 @@
+Assíncrono - Não ocorre ou não se efetiva ao mesmo tempo.
+Js por padrão é sincrono. 
+
+Promises - Objeto de processamento assíncrono, o valor de início é desconhecido. É uma promessa, ela pode entao, ser resolvida ou rejeitada.
+.then() -> resolvido
+.catch() -> rejeitado
+Tem 3 estados: pending, fulfilled e rejected.
+É necessãrio utilizar o operador await para obter seu resultado. 
+
+Async / Await (Para o codigo e quando for resolvido a promise ele continua)
+
+
+APIS (Application programming interface) - É uma forma de intermediar os resultados o backend com o que é apresentado no frontend, consegue acessar por meio de URL. É comum que APIS retornem
+seus dados no formato. json e quando chegar dessa forma precisa ser tratado.
+
+fetch - Retorna uma promise. Operações no banco (post, get, put, delete)
+
+JSON - Javascript object notation, é um formato de troca de informações muito utilizado na comunicação de front-ends com APIS
