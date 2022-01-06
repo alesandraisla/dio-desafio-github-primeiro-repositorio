@@ -1,0 +1,40 @@
+Programação - imperativo (OO, procedural) e declarativo (Banco de dados, funcional).
+
+Os programas são objetos que possuem propriedades. Pílares: Herança, polimorfismo, abstração e encapsulamento.
+A sintaxe de classes em Js é apenas um "açucar sintético"
+JS utiliza herança prototipada
+funções dentro de um objeto são chamadas de métodos.
+
+Abstração (simplificar - Diminuir complexidade)
+Processo mental que consiste em isolar um aspecto determinado de um estado de coisas relativamente complexo, a fim de simplificar a sua avaliação,
+classificação ou para permitir a comunicação do mesmo. 
+Ou seja, tem um problema complexo e deve tornar cada vez mais simples.
+ex: Carro ai abstrai e ele é um veiculo de rodas e abstrai e ele é um veiculo.
+
+Herança
+O objeto filho herda propriedades e métodos do objeto pai.
+ex: protótipos.
+
+encapsulamento (Altera só a classe que tem a propriedade)
+Cada classe tem propriedades e métodos independentes do restante do código. 
+Caso tenha alguma alteração na propriedade só vai alterar apenas aquela classe e nao todo o código
+do programa.
+
+Poliformismo (Herda, mas se comporta diferente)
+Objetos(mais complexo) podem herdar a mesma classe pai (mais abstrata), mas se comportarem de forma diferente quando invocamos seus métodos. 
+Ou seja, os objetos se comportam diferente, mas tem a mesma classe pai.
+
+Protótipo - É um esqueleto de todos os objetos. Todos os objetos JS herdam propriedades e métodos de um prototype. O objeto Object.prototype está no topo desta cadeia.
+
+Classes - Uma sintaxe feita para facilitar a escrita. O JS não possui classes nativamente. Todas as classes são objetos e a herança se dá por protótipos. 
+Toda classe dentro temo construtor, get e set, método super quando quer fazer herança (ai deve colocar o nome extends e o nome da class pai após o nome da class filha)
+e makeSound para sobrescrever.
+class Meal {
+    constructor(food) {
+        this.food = food;
+    }
+    eat() {
+        return 'comer';
+    }
+}
+método super() passa os argumentos enviados para a classe ascendente. 
