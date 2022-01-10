@@ -1,0 +1,59 @@
+DOM - Document object model
+Padrão de como acessar e modificar os elementos HTMl de uma página.
+
+BOM - Browser object model
+Tudo o que está dentro do objeto window.
+arvore de dependencia de existe dentro da janela
+nível acima do DOM
+
+-> Buscar pelo ID
+document.getElementById('titulo')
+
+-> Buscar por tag
+document.getElementsByTagName('li')
+
+-> Buscar por class
+document.getElementsByClassName('textos')
+
+-> Busca personalizada
+document.querySelectorAll('.primeira-classe segunda-classe')
+
+document.querySelectorAll('li .opcao')
+
+Adicionar e deletar
+-> Cria um novo elemento HTML
+document.createElement(element)  
+
+->Remove um elemento
+document.removeChild(element)
+
+->Adiciona um elemento
+document.appendChild(element)
+
+->Substitui um elemento
+document.replaceChild(new, old)
+
+-> Acessando lista de classes
+const meuElemento = document.getElementById("meu-elemento");
+
+adiciona class
+meuElemento.classList.add("novo-estilo")
+
+remove a class
+meuElemento.classList.remove("classe")
+
+add se nao fizer parte da lista e remove se já fizer
+meuElemento.classList.toggle("dark-mode")
+
+Colocando direto
+document.getElementByTagName("p").style.color = "blue";
+
+Eventos - Qualquer ação que o usuário faz na página web.
+Para acionar usa a function addEventListener que cria um evento que vai ser acionado no momento em que o usuário realizar determinada ação. Ou poderia usar onclick dentro da tag
+para chamar uma função.
+- Mouse
+    mouseover, mouseout // onmouseover, onmouseout
+- Clique
+    click, dbclick // onclick, ondbclick
+-Atualização
+    change, load // onchange, onload
