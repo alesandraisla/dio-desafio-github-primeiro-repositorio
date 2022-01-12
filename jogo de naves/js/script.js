@@ -15,8 +15,8 @@ function start() {
 		
 	let jogo = {}
 	let TECLA = {
-		W: 87,
-		S: 83,
+		ArrowUp: 38,
+		ArrowDown: 40,
 		D: 68
 	}
 	let velocidade=5;
@@ -74,7 +74,7 @@ function start() {
 
 	function movejogador() {
 	
-		if (jogo.pressionou[TECLA.W]) {
+		if (jogo.pressionou[TECLA.ArrowUp]) {
 			let topo = parseInt($("#jogador").css("top"));
 			$("#jogador").css("top",topo-10);
 			if (topo<=0) {
@@ -85,7 +85,7 @@ function start() {
 		
 		}
 		
-		if (jogo.pressionou[TECLA.S]) {
+		if (jogo.pressionou[TECLA.ArrowDown]) {
 			
 			let topo = parseInt($("#jogador").css("top"));
 			$("#jogador").css("top",topo+10);	
@@ -120,8 +120,7 @@ function start() {
 	$("#inimigo2").css("left",posicaoX-3);
 				
 		if (posicaoX<=0) {
-			
-		$("#inimigo2").css("left",775);
+			$("#inimigo2").css("left",775);
 					
 		}
 	}
@@ -130,7 +129,7 @@ function start() {
 		posicaoX = parseInt($("#amigo").css("left"));
 		$("#amigo").css("left",posicaoX+1);
 		if (posicaoX>906) {
-		$("#amigo").css("left",0);
+			$("#amigo").css("left",0);
 		}
 	} 
 
@@ -233,7 +232,6 @@ function start() {
 		} 
 	}
 
-	//Explosão 1
 	function explosao1(inimigo1X,inimigo1Y) {
 		somExplosao.play();
 		$("#fundoGame").append("<div id='explosao1'></div");
@@ -337,12 +335,14 @@ function start() {
 		$("#fundoGame").append("<div id='fim'></div>");
 		
 		$("#fim").html("<h1> Game Over </h1><p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
-	} // Fim da função gameOver();
+	}
+
 } 
 
 function reiniciaJogo() {
 	somGameover.pause();
 	$("#fim").remove();
 	start();
+	
 } 
 
