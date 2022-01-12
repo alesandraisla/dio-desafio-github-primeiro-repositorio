@@ -1,0 +1,27 @@
+########## Map########## 
+Cria um novo array
+Percorre o array e executa uma função em cada um de seus itens. 
+array.map(callback, thisArg) 
+
+callback tem acesso ao item, index, array
+thisArg é opcional
+
+########## ForEach ##########
+Faz operação em cada elemento
+
+########## Filter ##########
+Cria um novo array, não modifica o original e filtra. Retorna um novo array. 
+Percorre um array e retorna outro contendo apenas os itens que passaram por determinada validação.
+array.filter(callback, thisArg)
+
+
+########## Reduce ########## 
+Executa uma função em todos os elementos do array, retornando um valor único. (Transforma)
+Ele sempre retorna apenas um valor, que pode ou não ser um array. 
+Percorre um array e acumula o valor de cada operação para retornar um valor único no final. 
+array.reduce(callbackFn, initialValue)
+callback: Função a ser executada a partir do acumulador
+initialValue: Valor sobre o qual o retorno final irá atuar (opcional)
+
+Diferença entre map e foreach ->> O retorno: O método map retorna um array, enquanto forEach retorna undefined. 
+

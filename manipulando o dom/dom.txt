@@ -1,9 +1,10 @@
 DOM - Document object model
-Padrão de como acessar e modificar os elementos HTMl de uma página.
+Padrão de como acessar e modificar os elementos HTMl de uma página. Árvore de dependência do HTML.
+É possível acessar os elementos HTML, seus elementos ascendentes e descendentes.
 
 BOM - Browser object model
 Tudo o que está dentro do objeto window.
-arvore de dependencia de existe dentro da janela
+arvore de dependencia de existe dentro da janela (Browser)
 nível acima do DOM
 
 -> Buscar pelo ID
@@ -57,3 +58,6 @@ para chamar uma função.
     click, dbclick // onclick, ondbclick
 -Atualização
     change, load // onchange, onload
+
+Eventos podem ser programados via Javascript adicionando "listeners" aos elementos do DOM ou adicionados diretamente em tags no HTML.
+

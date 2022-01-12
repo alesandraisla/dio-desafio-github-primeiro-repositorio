@@ -1,0 +1,4 @@
+Todo código tem:
+entrada
+processamento
+saída
