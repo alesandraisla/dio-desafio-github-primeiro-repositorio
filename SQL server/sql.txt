@@ -1,0 +1,35 @@
+• Banco de dados 
+Dados armazenado em algum lugar
+
+• SGBDs
+Software que padronizam os bancos de dados. 
+    • Relacional - controle forte no estoque, melhor garantia (SQL server, mysql).
+    Atomicidade (Garantir que todos os dados estejam corretos), 
+    consistência dos dados, 
+    
+    • Não Relacional - melhor performance, grandes quantidade de dados (mongoDb, Firebase).
+
+• chave primária - Identificar um registro de forma única. 
+Adicionando chave primária
+select * from Clientes
+alter table Clientes add constraint pk_cliente primary key (codigo)
+
+• chave estrangeira - Chave que faz relação de uma tabela com outra tabela. Cópia de uma chave primária.
+Chave estrangeira
+alter table PedidoItem add constraint fk_pedido foreign key (CodigoPedido) references Pedido(CodigoCliente)
+
+select * from clientes
+
+insert Produtos values (1, 'caneca')
+
+update nome
+where id = 2;
+
+Normalização
+Não deve haver um conjunto de colunas repetida.
+Não deve ter cojunto de informações em apenas uma propriedade.
+
+
+
+
+
