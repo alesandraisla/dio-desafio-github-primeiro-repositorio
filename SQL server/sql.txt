@@ -5,7 +5,7 @@ Dados armazenado em algum lugar
 Software que padronizam os bancos de dados. 
     • Relacional - controle forte no estoque, melhor garantia (SQL server, mysql).
     Atomicidade (Garantir que todos os dados estejam corretos), 
-    consistência dos dados, 
+    consistência dos dados (Garantir que os dados estejam iguais em todas as instâncias de um banco de dados), 
     
     • Não Relacional - melhor performance, grandes quantidade de dados (mongoDb, Firebase).
 
@@ -28,6 +28,33 @@ where id = 2;
 Normalização
 Não deve haver um conjunto de colunas repetida.
 Não deve ter cojunto de informações em apenas uma propriedade.
+
+• Juntar o que tem nas duas tabelas e mostrar
+Inner join
+ex:
+select *
+from Clientes cli
+inner join Pedido ped
+on cli Codigo = ped CodigoCliente
+
+left join
+ex:
+select *
+from Clientes cli
+left join Pedido ped
+on cli Codigo = ped CodigoCliente
+
+right join
+ex:
+select *
+from Clientes cli
+right join Pedido ped
+on cli Codigo = ped CodigoCliente
+
+Group by -> Serve para indicar quais colunas serão agrupadas quando usamos funções de agregação.
+Where serve para filtrar linhas enquanto having serve para filtrar agregações.
+
+
 
 
 
