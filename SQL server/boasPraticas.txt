@@ -1,0 +1,6 @@
+ORM - Abastrai as consultas de banco de dados. 
+INSERT INTO - Insere novos registros na tabela.
+INDEX - Recupera dados do banco de dados mais rapidamente. 
+Microsoft Azure - As máquinas são cobradas por demanda (tempo de uso)
+SELECT - Seleciona todos os dados da tabela.
+LIKE '%ca%' - Vai buscar tudo que tiver um ca em qualquer posição.

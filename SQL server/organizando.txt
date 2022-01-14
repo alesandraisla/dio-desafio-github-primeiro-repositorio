@@ -1,0 +1,15 @@
+Digrama de banco de dados 
+Identificar mais facilmente como funciona o sistema, assim como a tabela principal (core) do sistema. 
+
+banco de dados não são voláteis.
+
+bit - valor boolean
+
+chave estrangeira - é uma referência em uma tabela de chave primária de outra tabela. 
+
+filtrar where
+chave primaria - nao pode ser duplicada
+
+select * from tabela 
+
+Boas práticas - Criação de tabelas no plural, nomes claros e objetivos. 
