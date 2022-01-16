@@ -1,0 +1,11 @@
+
+Arrange, act, assert
+Assert.areequal(esperado, resultado)
+
+Acessando ferramentas -> obter ferramentas e funcionalidades. 
+
+Saber se o retorno de um método ou classe é igual o esperado.
+é possivel clonar um repositorio existente ou criar um repositorio pelo menu git 
+quickwatch é inspecionar o codigo, conseguindo visualizar os valores das variáveis.
+Inicializa os objetos e define o valor dos dados, invoca o método a ser testado com os parâmetros, verifica se o método se comportou conforme o esperado.
+Depuração colocando um breakpoint na linha a ser depurada e executando o cod. a navegação pelo codigo é possivel pelas teclas f5, f10 e f11

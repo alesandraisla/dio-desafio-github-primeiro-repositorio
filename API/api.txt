@@ -35,4 +35,3 @@ Postman - É uma ferramenta que dá suporte à documentação das requisições 
 Rest - Padrão de arquitetura para criar serviços e disponibilizá-los na web.
 RESTful - Realiza a implementação do padrão.
 
-
