@@ -1,0 +1,30 @@
+msw - criar mocks (objetos simulados) para execução de testes de integração com APis rest 
+
+testes unitários - abstrair o dominio da aplicaçao previamente, durante a escrita dos testes, 
+fará com que sua implementação considere os critériosde qualidade pré-definidos. 
+Com isso, a tendência é de que a qualidade da solução seja superior.
+
+
+React styled componentes -é uma biblioteca que permite escrever codigo css dentro do js usando tagged templates literals
+
+Mocks - São objetos que simulam o comportamento de objetos reais de forma controlada. 
+
+Hooks - (Ganchos) nova adição do react, os quais facilitam o gerenciamento de estado e desacoplamento dos componentes.
+
+
+===
+hook é um gancho que toda vez que chamar uma função ele será executado. é uma função associada a uma propriedade ou evento do componente. 
+A vantagem é criar funções reativas nos componentes e dar mais inteligência a eles.
+
+Todo componente é uma função que retorna um bloco de html, todos os componentes que for criados que foram exportados, deve ser importado no App.js.
+
+Renderizar um componente significa que o componente será desenhado no navegador de acordo com os elementos html e css definidos. 
+
+useEffect é como se fosse o efeito colateral de um remedio, é uma função que vigia uma variável/evento e é executada sempre que essa variável/evento é atualizada. 
+ex:
+
+useEffect(() => {
+    document.getElementById("moeda").innerHTML = 2.00 * valor;
+}, [valor])
+
+

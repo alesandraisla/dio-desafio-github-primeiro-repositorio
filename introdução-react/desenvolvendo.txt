@@ -1,0 +1,29 @@
+Toda a aplicação é renderizada pelo root
+<div id="root"> </div>
+
+Pode alterar propriedades pré-existentes e personalizadas na criação de componentes.
+O React simplifica as funções de JS e possibilita componetização de uma aplicação através do props drilling (passa propriedades de um componente para outro).
+A vantagem de componentes é que a manutenção do código é melhorada, podendo mexer em um componente específico sem alterar toda a aplicação.
+
+React-hooks são atralhos para funções que poderíamos criar normalmente, mas já estão embutidas no React.
+O hook useState permite trabalhar com o estado de uma aplicação.
+
+Para implementar o react em projetos existentes precisa fazer a refatoração do projeto para o modelo SPA ou utilizar a CDN.
+
+Comando para inicializar um projeto:
+npx create-react-app meu-projeto
+
+render reebe dois parâmeotrs o que vai ser renderizado e onde vai ser renderizado. 
+
+class deve ser className
+
+Para trabalhar com componentes irmãos dentro de um component deve fazer:
+<>
+    <h1>Texto</h1>
+    <p>Olá</p>
+</>
+
+
+
+
+

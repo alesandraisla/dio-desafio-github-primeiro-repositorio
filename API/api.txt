@@ -1,0 +1,38 @@
+API (Aplication program interface)
+Pense em API como a camada que esconde as regras e possibilita uma comunicação externa
+Facilita muito a integração
+Existem várias metodologias como SOA, rest, SDK.
+
+HTTP Métodos
+
+get - obter dados
+/api/dev/user   >>>endpoint (caminho)
+
+post - cria um novo registro
+/api/dev/user
+
+put - atualizar um registro existente
+/api/dev/user/{id}
+
+delete - remove um registro existente
+/api/dev/user/{id}
+
+Status comuns:
+Inicia com:
+2 -> sucesso
+4 -> erro no cliente
+5 -> erro server side 
+
+200 = ok
+401 = Unauthorized
+403 = Forbidden
+404 = not found
+500 = internal server error
+504 = gateway timeout
+
+Postman - É uma ferramenta que dá suporte à documentação das requisições feitas pela API.
+
+Rest - Padrão de arquitetura para criar serviços e disponibilizá-los na web.
+RESTful - Realiza a implementação do padrão.
+
+
