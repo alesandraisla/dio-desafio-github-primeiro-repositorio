@@ -1,0 +1,51 @@
+React é uma biblioteca, a principal funço é a criação da interface para o usuário. É uma linguagem declarativa. 
+Trabalha com JS de forma simples.
+Baseado em components. Sigle page (Rendereza em uma única página)
+
+Eventos em React são nomeados usando camelCase.
+
+JSX é uma linguagem de marcação que permite está na mesma página Js e HTML. Não é obrigatório. Sintax suggar para React.createElement.
+O transpilador babel que interpreta no browser.
+ex:
+
+
+
+Instalação:
+
+para criar o package json
+npm init
+Serve para instalar as dependencias
+npm install --save  react@16.8.6 react-dom@16.8.6 @react-scripts@3.0.1
+
+Componentes podem ter função ou classe.
+
+Ciclo de vida - Inicialização, montagem, atualização e desmontagem. 
+
+webpack
+É um module bundler (Um empacotador de módulos para aplicações JS)
+Entry - Utilizando grafo, o webpack precisa de um ponto de entrada para buscar todos os módulos e dependências.
+Output - É para determinar quais são os bundlers que o webpack irá emitir. 
+Mode - Utilizados para abordagem de configuração zero. É possível configurar módulos como production, development ou none.
+production - otimizações internas (arquivo final para ambiente de produção).
+Loaders - Configuração que permite que o webpack gerencie arquivos que não são Javascript. 
+development - três plugins. 
+Instalação
+npm i -D webpack webpack-cli 
+"build":"webpack --mode production"
+npm i @babel/core babel-loader @babel/preset-env@babel/preset-react --save-dev 
+
+EsLint 
+Boas práticas para melhorar a qualidade do código
+Instalação
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-watch
+
+necessário informar o parametro key no elemento <li>
+{hasCustomer && (<component/)}
+Utilizando o reactDOM.render
+
+
+
+
+
+
+

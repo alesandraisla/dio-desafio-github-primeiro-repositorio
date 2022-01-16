@@ -1,0 +1,61 @@
+• Stateful - Usa estados, construído usando classes em Js.
+• Stateless - Não usa estados, construído usando funções em Js.
+
+Componente controlado
+Tanto select, input ou textarea aceitamum atributo value. Pode mudar esse valor usando o atributo onChange. 
+Componente não controlado a tag input é read-only
+
+bibliotecas de form
+formik
+redux-forms
+
+Flux - é uma arquitetura de padrão de projeto para tráfego de dados de maneira unidirecional, ou seja, comunicação entre componentes (Centraliza a informação)
+action - telégrafo, formato mensagem.
+dispatcher - telefonista, sabe dos callbacks para diferentes stores.
+Store - controlador, guarda a informação e altera.
+View - Gerente intermediário (middleware) recebe as notificações da store e passa os dados para as visões abaixo dela. 
+implementação redux é a mais popular.
+
+Em redux
+Actions são como o flux (actions não enviam a action em sia para o dispatcher), retornam um objeto de action formatado. 
+Tem uma única store que cuida de toda a árcore de estados, os reducers que cuidam de descobrir qual estado muda. 
+Não há dispatcher (simplifica e divide o trabalho da Store), a store se conecta ao root reducer, que divide os
+estados em pequenas reducers para descobrir como lidar com esse estado. Os estados são imutáveis. 
+Instalação
+npm install react-redux
+npm install --save-dev redux-devtools
+
+Provider
+connect()
+selector
+
+APIS servem para conectar a um ou mais servidores HTTP utilizando os métodos get, post, delete, put. Através do fetch api / axios (Para adicionar: yarn add axios). 
+
+Imutabilidade
+Uma vez criada, uma coleção não pode ser alterada. 
+Usa o shouldComponentUpdate ou React.PureComponent.
+Novas coleções podem ser criadas a partir de uma coleção anterior e uma mutação (setter) como um conjunto.
+Novas coleções são criadas usando o máximo possível da estrutura original, reduzindo a cópia e aumentando a performance. 
+Benefícios: Performance, programação mais simples, debugging mais simples (detecção de mudanças).
+
+middleware - Provê uma camada entre o disparo de uma ação e o momento que ela atinge o reducer.
+Utilizados para uma variedade funções, entre elas chamadas de APIs de serviço.
+
+TDD - test driven development
+Antecipar erros a nível de desenvolvimento
+teste escrito antes da funcionalidade
+não descarta a presença de um tester. 
+ciclo - teste falha, criar uma função e depois refatora. 
+Tem teste unitário e teste end-to-end (ponta a ponta fluxo).
+
+BDD - Behavior driven development
+Teste de especificação
+Une especificação, teste automatizado e premissa de teste (documento de teste)
+
+debugging
+Depuração é o processo de encontrar e reduzir defeitos em um software.
+
+Tratamento de erros
+Quando falhar deve mostrar algo ao usuário.
+
+
