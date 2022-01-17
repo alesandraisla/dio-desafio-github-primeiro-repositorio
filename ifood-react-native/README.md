@@ -3,6 +3,6 @@
     IFOOD CLONE - React Native 
 </h1>
 
-<p align="center">
+<p>
     Aplicativo criado no curso de react native da digital innovation one.
 </p>
