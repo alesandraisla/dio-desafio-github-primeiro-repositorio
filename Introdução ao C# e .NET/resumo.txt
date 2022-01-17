@@ -1,0 +1,44 @@
+.NET
+É um framework criado pela Microsoft que permite a comunicação entre várias linguagens 
+que tem uma infraestrutura comum (CLI), entre elas o Visual Basic, C++, F# e C#.
+
+C#
+Linguagem orientada a objetos fortemente tipada. 
+
+Solução
+É um container para organizar os projetos relacionados. 
+
+Namespaces
+São usados para organizar classes.
+Para usar classe de outro namespace, colocamos using no começo do código.
+
+classePode ter campos, propriedades, métodos e eventos dentro dela que são chamados membros.
+
+interface
+É como uma classe base que serve de molde para várias classes. Uma classe que implementa uma interface deve implementar todos os membros.
+
+Enum 
+Declara um conjunto de constantes nomeadas que começam do 0 e aumentam de 1 em 1.
+
+Debugging
+A depuração pode ser feita colocando um breakpoint no canto esquerdo do código ou apertando f9  e executando ele. 
+o código vai parar onde foi colocado o breakpoint e então o código poderá ser inspecionado.
+
+CLI (Command-line interface)
+Processa os comandos que serão enviados para um programa de computador na forma de linhas de texto.
+
+ILC (interface de linha de comando)
+
+Processa os comandos que serão enviados para um programa de computador na forma de linhas de texto.
+
+Utilize o comando "dotnet build"
+
+Possibilitar a reutilização do código para outra plataforma, fazendo com que a biblioteca de classes de cada framework sejam unificadas. 
+
+Dotnet framework, dotnet core e dotnet 5
+
+dotnet --help
+
+runtime
+
+

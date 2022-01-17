@@ -1,0 +1,11 @@
+MicroServiços
+É uma abordagem de arquitetura para criação de aplicações, onde a aplicação é dividida em pequenos serviços independentes que se relacionam entre si.
+Benefícios - Agilidade, desempenho, fácil implantação e manutenção.
+Ponto negativo - Complexidade no gerenciamento da infraestrutura. 
+Tratar erros - Especificamente dentro de cada MicroServiços.
+
+arquitetura monolítica - Executada em sua totalidade como um único serviço.
+Pontos negativos de uma arquitetura monolítica.
+Baixa escabilidade, Complexidade elevada de manutenção e alto custo no provisionamento de infraestrutura.
+
+Não é um tipo de arquitetura - Orientada a monolitos.
