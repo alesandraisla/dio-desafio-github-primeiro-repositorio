@@ -26,7 +26,7 @@ Assuntos: :books:
 :red_circle:   [IDE](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/IDE)<br>
 :red_circle:   [Introdução ao C# e .NET](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/Introdu%C3%A7%C3%A3o%20ao%20C%23%20e%20.NET)<br>
 :red_circle:   [SQL server](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/SQL%20server)<br>
-:red_circle:   [dotnet](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/dotnet)<br>
+:red_circle:   [app de cadastro dotnet](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/app%20de%20cadastro%20dotnet)<br>
 :red_circle:   [ifood-react-native](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/ifood-react-native)<br>
 :red_circle:   [introdução-react](https://github.com/alesandraisla/dio-desafio-github-primeiro-repositorio/tree/main/introdu%C3%A7%C3%A3o-react)<br>
 
