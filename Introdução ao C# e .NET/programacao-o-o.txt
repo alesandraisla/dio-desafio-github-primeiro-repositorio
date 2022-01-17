@@ -1,0 +1,38 @@
+POO - Paradigma de programação. É um modelo de técnicas, estruturas e formas de solucionar um problema.
+classe - molde, abstração de algo do mundo real que queira representar na programação.
+Objeto - tudo é objeto, exemplo a pessoa.
+
+- Abstração - Abstrair um objeto do mundl real para um contexto específico, considerando apenas os atributos imporantes.
+ex: criar classes para acessar os objetos
+
+- Encapsulamento - Proteger uma classe e definir limites para alteração de suas propriedades. 
+Serve para ocultar seu comportamento e export somente o necessário.
+ex: public, private, protected, internal.
+
+- Herança - Reutilizar atributos, métodos e comportamentos de uma classe em outras classes. 
+Serve para agrupar objetos que são do mesmo tipo, porém com características diferentes.
+ex: classe aluno e classe professor que herdam os códigos da classe pessoa.
+ex: publics class Aluno : Pessoa
+
+- Poliformismo - muitas formas. Pode sobrescrever métodos das classes filhas para que se 
+comportem de maneira diferente e ter sua própria implementação.
+ex: Um método que é o mesmo em duas class, mas que um tem mais parâmetro que o outro
+
+Classe abstrata - Modelo para ser herdado, portanto não pode ser instanciada. 
+Classe selada - Impede que outras classes façam uma herança dela, ou seja, ela é o ponto final de uma herança. Ela não tem classes filhas. 
+Não permite o Poliformismo(sobrescrita)
+
+Classe System.Object é a mãe de todas as classes no .NET. Todas as classes derivam direta e indiretamente dela. 
+Prover serviços de baixo nível para suas classes filhas, como métodos de referências, comparação, finalização e representação de objetos.
+ex: Métodos.
+
+Interfaces - É um contrato que pode ser implementado por uma classe. Não pode ser instanciada.
+
+Arquivos - file, directory (operações com diretorio), path (organizar o caminho de forma lógica).
+
+Streams significa trabalhar com o arquivo em partes e de forma incremental, não sobrecarregando a memória do sistema,
+onde não precisamos carregar todo o arquivo de uma vez.
+
+
+
+
