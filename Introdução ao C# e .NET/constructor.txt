@@ -1,0 +1,36 @@
+Construtores - É um método especial, que contém o mesmo nome do seu tipo classe, 
+e tem o objetivo de definir valores pdrão, limitar uma instância e facilitar a instanciação de um objeto.
+- Não possui retorno.
+- Toda classe por padrão tem um construtor.
+- uma classe pode ter mais de um construtor. 
+
+Get (Obter) / Set (Atribuir) - Serve para atribuir um valor em uma variável de maneira controlada e com validações.
+Alterar o get ou set da propriedade para trabalhar com uma variável privada da classe (validação)
+
+Readonly (somente leitura) - Bloqueia um campo contra alterações que não sejam em sua inicialização ou pelo próprio construtor.
+Constante - Um valor que somente pode ser atribuído no momento de sua inicialização e não se modifica posteriormente.
+
+Delegate - Uma maneira de passar um método como referência, podendo ser usado como um callback, 
+aceitando qualquer método que contenha a mesma assinatura. 
+
+Eventos - Mecanismo de comunicação entre os objetos, onde existe um publisher, 
+que realiza o evento e o subscriber, que se inscreve em um evento.
+
+Para registrar mais de um método em um delegate, usamos o sinal de "+=", 
+assim o delegate irá chamar todos os métodos registrados. Havendo mais de um, esse comportamento é conhecido como: Multi cast deletage.
+
+No C#, podemos passar diversos tipos de valores como parâmetro, inclusive um método. Para passar um método como parâmetro, usamos: delegate 
+
+Qual a função de um construtor privado? Impedir a instância de uma classe, comumente usado para permitir acesso somente a membros e métodos estáticos.
+
+Caso não implementarmos nenhum construtor em uma classe, ainda sim conseguimos instância-la, pois:
+O C# irá criar um construtor padrão (sem parâmetros) caso nenhum seja implementado.
+
+Qual o objetivo do padrão singleton? Garantir uma única instância de uma classe em toda sua aplicação.
+
+O modificador readonly é usado em um campo de uma classe, e tem como função:
+Impedir a alteração do valor do campo, com exceção em sua inicialização ou dentro de um construtor
+
+Ao realizarmos um multi cast delegate, a chamada dos métodos obedece a ordem de: FIFO
+
+Para realizar a comunicação entre objetos, como notificação de término de processamento ou uma ação específica, podemos fazer uso de: events

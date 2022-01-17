@@ -1,0 +1,59 @@
+Array (Coleção do mesmo tipo)
+é uma estrutura de dados que armazena valores do mesmo tipo, com um tamanho fixo. Acessa pelo índice. Indice começa com 0.
+
+ex:
+int[] array = new int[4] aceita só numero inteiro
+int[] array = new int[] {42,5,103,5} omitiu a capacidade
+string[] nomes = {"Jan", "Fev"}  aceita só string
+
+
+Array multidimensional - possui mais de uma dimensão. 
+
+Manipulando arrays
+Ordenando arrays
+Bubble sort - compara elemento atual com o próximo elemento se á maior ou nao, caso sim ele realiza a troca., vai prosseguir o laço de repetição ate organizar todo os numeros.
+
+Selection sort - Varrer o array e procura o elemento menor para marcar ele e fazer a troca.
+
+Insertion sort - 
+
+A classe array é uma classe do #C que oferece diversos métodos que auxiliam a trabalhar com arrays. 
+
+Coleções genéricas - Classes padronizadas para operações mais comuns como ordenação, obter valor por índice, obter valor com expressões e trabalhar com tamanhos dinâmicos.
+
+Queue (Fila) - Obedece a ordem FIFO (Primeiro que entra primeiro que sai)
+Stack (Pilha) - Obedece a ordem LIFO (o ultimo que entrou é o primeiro a sair)
+
+Dicionário é uma coleção de chave e valor, permitindo que recupre rapidamente os itens baseado em sua chave. Armazena a chave em hash. 
+
+LINQ (Linguage-integrated query) - É uma maneira de utilizar uma sintaxe de consulta padronizada para coleções de objetos(Parece SQL). E tem a sintaxe de método.
+
+Qual seria o comportamento ao acessarmos um índice maior que o tamanho de nosso array?
+O programa retornará uma exceção, pois o índice é inválido. Só podemos acessar índices começando do zero até o índice N -1, sendo N o tamanho do array.
+
+Para podermos percorrer um array de duas dimensões, precisamos passar algumas informações, que são:
+Índice de linha e coluna. 
+
+Qual a principal diferença entre uma lista e um array?
+Um array precisa ser declarado com um tamanho específico, enquanto uma lista é redimensionada automaticamente conforme novos elementos vão sendo adicionados.
+
+Com relação a uma coleção do tipo fila (queue), qual é a ordem correta de entrada e saída de elementos?
+Fila obedece a ordem fifo, o primeiro que entrar será o primeiro a sair.
+
+Sobre coleções do tipo dicionário, qual é o comportamento ao tentarmos buscar uma chave que não está presente no dicionário?
+O programa retornará uma exceção, pois a chave não existe no dicionário.
+
+Quando trabalhamos com uma coleção do tipo stack (pilha), qual é a ordem correta de entrada e saída de elementos?
+Pilha obedece a ordem LIFO, o último elemento a entrar será o primeiro a sair.
+
+Qual a principal função do LINQ na linguagem C#?
+Permite realizar consultas em uma coleção de objetps de forma padronizada, possuindo diversas facilidades para obter novos valores ou coleções.
+
+Dado uma coleção de inteiros, qual método é usado para obter a soma de seus valores utilizando LINQ?
+Método Sum
+
+A classe array nos fornece diversas facilidades ao trabalharmos com arrays. Dentre essas facilidades, podemos destacar:
+Redimensionar, copiar, verificar elementos, converter para um outro tipo e ordenar um array.
+
+Quando falamos de coleções do tipo dicionário, qual é o comportamento ao tentarmos adicionar um novo registro com uma chave já existente?
+O programa retornará uma exceção, pois o dicionário não pode ter chaves repetidas, mas o valor poderá se repetir desde que seja com uma chave diferente.
