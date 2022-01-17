@@ -1,0 +1,17 @@
+Design Patterns - Práticas e soluções para que as pessoas consigam resolver os mesmos problemas. (Experimentação e repetição). 
+Template de como resolver o seu problema nas mais diferentes situações. É utilizado em qualquer linguagem.
+
+Facade - Define uma interface que abstrai a complexidade de uma interface de subsistemas, isto é, simplifica a utilização de subsistemas complexos.
+
+Repository - Faz uma abstração ("meio de campo") entre o domnínio e a camada de dados, ou seja, contriui para o isuolamento da camada de acesso a dados.
+
+Swagger - uma aplicação open source que auxilia desenvolvedores nos processos de documentar e sonsumir apis rest.
+
+htppcliente factory - Permite centralizar a configuração de instâncias do tipo HTTpCliente.
+
+singleton - garante uma unica instancia da classe e um acesso glboal para ela, ou seja, centraliza e compartilha recursos. 
+
+gof - creational patterns, structural pattern e behavioral patterns.
+
+
+builder, bridge e obsrerver
